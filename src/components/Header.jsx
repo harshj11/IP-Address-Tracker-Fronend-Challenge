@@ -1,4 +1,6 @@
 import Input from './Input';
+import Details from './Details';
+
 import '../css/header.css';
 
 const Header = () => {
@@ -6,7 +8,8 @@ const Header = () => {
         <div className="header__container">
             <div className="header__content">
                 <h1 className="title">IP Address Tracker</h1>
-                <Input />                
+                <Input />   
+                <Details />             
             </div>
         </div>
     )

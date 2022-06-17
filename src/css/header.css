@@ -1,6 +1,9 @@
 .header__container {
     background-image: url("../assets/images/pattern-bg.png");
-    height: 17rem;
+    background-repeat: no-repeat;
+    background-position: 53.5% 0;
+    background-size: cover;
+    height: 16.75rem;
     width: 100%;
 
     position: relative;
@@ -16,12 +19,19 @@
     text-align: center;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 640px) {
     .title {
         font-size: 1.5rem;
     }
 
     .header__container {
-        height: 13rem;
+        height: 13.9rem;
+    }
+}
+
+@media(min-width: 640px) {
+    .header__container {
+        background-position: 0 0;
+        background-size: cover;
     }
 }
